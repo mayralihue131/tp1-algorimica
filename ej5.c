@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-  int i;
-  int numero = 0;
+  int i = 1;
+  int numero;
   printf ("ingrese el  numero hasta donde quiere contar");
   scanf ("%d", &numero);
-  while(i < numero){
-    i++;
+  while(i <= numero){
     printf ("%d", i);
+    i++;
   }
 
   
