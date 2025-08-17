@@ -5,7 +5,7 @@ int main(){
   printf ("ingrese el  numero hasta donde quiere contar");
   scanf ("%d", &numero);
   while(i <= numero){
-    printf ("%d", i);
+    printf ("%d\n", i);
     i++;
   }
 
